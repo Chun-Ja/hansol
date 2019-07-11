@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>한솔제지</title>
+  <link rel="shortcut icon" type="favicon" href="images/favicon.png">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/jquery.bxslider.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/jquery.bxslider.js"></script>
+</head>
+<body>
+  <div id="wrap">
+    <div id="header">
+      <div id="logo"><a href="index.html"><img src="images/logo.gif" alt="로고"></a></div>
+      <div id="top_nav">
+        <ul>
+          <li class="bor_right"><a href="#">Home</a></li>
+          <li class="bor_right"><a href="#">English</a></li>
+          <li class="bor_right"><a href="#">Sitemap</a></li>
+          <li><a href="#">개인정보처리방침</a></li>
+          <li><a href="#"><img src="images/lnb_instagram.png" alt="인스타그램"></a></li>
+          <li><a href="#"><img src="images/lnb_facebook.gif" alt="페이스북"></a></li>
+        </ul>
+      </div>
+      <div id="nav">
+        <ul>
+          <li><a href="#">회사소개</a></li>
+          <li><a href="#">사업영역</a></li>
+          <li><a href="#">지속가능경영</a></li>
+          <li><a href="#">투자정보</a></li>
+          <li><a href="#">고객지원</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="banner">
+      <div class="bxslider">
+        <div>
+          <img src="images/banner_vision.jpg" alt="비젼">
+          <div class="banner_txt">
+            <div class="txt_01" id="txt_wid_01">VISION</div>
+            <div class="txt_02">고객에게 더 나은 가치를 제공하는<br> 글로벌 종이소재 기업</div>
+          </div>
+        </div>
+        <div class="banner_box">
+          <img src="images/banner_nature.jpg" alt="네츄럴">
+          <div class="banner_txt">
+            <div class="txt_01" id="txt_wid_02">NATURE</div>
+            <div class="txt_02">한솔제지는 환경경영 실천과 환경 보전활동을 선도하여<br> 푸른 지구 실현을 위해 노력합니다.</div>
+          </div>
+        </div>
+        <div class="banner_box">
+          <img src="images/banner_paper.jpg" alt="페이퍼">
+          <div class="banner_txt">
+            <div class="txt_01" id="txt_wid_03">PAPER</div>
+            <div class="txt_02">한솔제지는 인쇄용지, 패키징용지, 특수지, 감열지 등<br> 우수한 품질의 종일을 생산하고 있습니다.</div>
+          </div>
+        </div>
+      </div>
+      <script>
+      $('.bxslider').bxSlider({
+        mode:'horizontal',
+        auto: true,
+        speed: 3000,
+        pager: true,
+        slideWidth:1200
+      });
+      </script>
+    </div>
+    <div id="section">
+      <div id="article01">
+        <ul>
+          <li>
+            <ul>
+              <li><a href="#">한솔제지 페이퍼몰</a><br><a href="#">바로가기</a></li>
+              <li><a href="#">></a></li>
+            </ul>
+          </li>
+          <li>
+            <ul>
+              <li><a href="#">한솔제지 인스퍼</a><br><a href="#">바로가기</a></li>
+              <li><a href="#">></a></li>
+            </ul>    
+          </li>
+        </ul>
+      </div>
+      <div id="article02">
+        <div>
+          <ul>
+            <li>
+              <ul class="section_txt">
+                <li>인쇄용지</li>
+                <li><a href="#">바로가기 ></a></li>
+              </ul>
+            </li>
+            <li><img src="images/photo2_1.gif" alt="인쇄용지"></li>
+            <li>인쇄작업성 및 품질균일성 등 최고급 한솔 인쇄용지를 확인하실 수 있습니다.</li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <li>
+              <ul class="section_txt">
+                <li>패키징용지</li>
+                <li><a href="#">바로가기 ></a></li>
+              </ul>
+            </li>
+            <li><img src="images/photo2_2.gif" alt="인쇄용지"></li>
+            <li>종이를 재활용한 환경친화적인 한솔 패키징용지를 확인하실 수 있습니다.</li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <li>
+              <ul class="section_txt">
+                <li>특수지</li>
+                <li><a href="#">바로가기 ></a></li>
+              </ul>
+            </li>
+            <li><img src="images/photo2_3.gif" alt="인쇄용지"></li>
+            <li>한솔제지만의 특별한 기술 집약적 용지인 특수지를 확인하실 수 있습니다.</li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <li>
+              <ul class="section_txt">
+                <li>감열지</li>
+                <li><a href="#">바로가기 ></a></li>
+              </ul>
+            </li>
+            <li><img src="images/photo2_4.gif" alt="인쇄용지"></li>
+            <li>발색도, 보존성 등 우수한 품질의 한솔 감열지를 확인하실 수 있습니다.</li>
+          </ul>
+        </div>
+      </div>
+      <div id="article03">
+        <div id="article03_left">
+          <ul>
+            <li>공지사항<span><a href="#">바로가기 ></a></span></li>
+            <li><a href="#">회원가입이벤트</a><span>2018-08-16</span></li>
+            <li><a href="#">졸업작품展, INSPER 후원 이벤트</a><span>2018-07-09</span></li>
+            <li><a href="#">2017년 한솔제지 상반기 대졸 신입사원 모집 (~6/26, 10:00)</a><span>2017-06-05</span></li>
+            <li><a href="#">지속가능경영보고서 발간 (2nd)</a><span>2016-07-26</span></li>
+            <li><a href="#">경력사원 채용 인재 Pool 운영 안내</a><span>2016-01-19</span></li>
+          </ul>
+        </div>
+        <div id="article03_right">
+          <ul>
+            <li>뉴스<span><a href="#">바로가기 ></a></span></li>
+            <li><a href="#">남부발전, 대전 한솔제지 공장에 30MW 연료전지 건설</a><span>2018-07-06</span></li>
+            <li><a href="#">한솔제지, 신성장 동력 특수지로 재도약 '박차'</a><span>2018-07-06</span></li>
+            <li><a href="#">한솔제지 유럽 교두보 실적 개선..."내년 흑자전환 예상</a><span>2018-07-06</span></li>
+            <li><a href="#">매출 3조·영업이익 3000억·신규사업 30%… 한솔 3·3·3 '큰 걸음'</a><span>2018-07-06</span></li>
+            <li><a href="#">금강환경청, ‘한솔제지(주) 장항공장’ 녹색기업 재지정</a><span>2018-07-06</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div id="footer">
+      <div id="footer_left">
+        <ul>
+          <li><img src="images/footer_logo.gif" alt="푸터로고"></li>
+          <li>
+            <p>서울 중구 을지로 100 (을지로2가) 파인애비뉴 B동 23~24층 Tel : 02-3287-7114 , Fax : 02-6031-0908</p>
+            <p>Copyright 2015 Hansol., All rights Reserved.</p>
+          </li>
+        </ul>
+      </div>
+      <div id="footer_right">
+        <select id="foot_sel">
+          <option value="title">Family Site</option>
+          <option value="txt01">한솔그룹</option>
+          <option value="txt02">한솔PNS</option>
+          <option value="txt03">한솔홈데코</option>
+          <option value="txt04">한솔테크닉스</option>
+          <option value="txt04">한솔케미칼</option>
+          <option value="txt04">한솔EME</option>
+          <option value="txt04">한솔로직스틱스</option>
+          <option value="txt04">한솔개발</option>
+          <option value="txt04">한솔인티큐브</option>
+          <option value="txt04">한솔Museum SAN</option>
+          <option value="txt04">한솔페이퍼텍</option>
+        </select>
+        <button>go</button><br>
+        <p><a href="#">열린 구매 시스템</a></p>
+
+      </div>
+      
+    </div>
+  </div>
+</body>
+</html>
